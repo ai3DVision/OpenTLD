@@ -67,7 +67,7 @@ if isunix
     include = ' -I/usr/local/include/opencv/ -I/usr/local/include/';
     libpath = '/usr/local/lib/';
     
-    files = dir([libpath 'libopencv*.so.2.2']);
+    files = dir([libpath 'libopencv*.so']);
     
     lib = [];
     for i = 1:length(files),
